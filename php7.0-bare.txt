@@ -1,0 +1,602 @@
+php json-vs-serialize.php 
+Making Test Data of size 1000
+Encoding in Json
+Process completed in 0.12612342834473 ms
+ Decoding from Json
+Process completed in 0.49614906311035 ms
+ Serialization of data
+Process completed in 0.12898445129395 ms
+ Unserialization of data
+Process completed in 0.36406517028809 ms
+
+
+----------------------------------------
+Making Test Data of size 2000
+Encoding in Json
+Process completed in 0.23102760314941 ms
+ Decoding from Json
+Process completed in 0.85902214050293 ms
+ Serialization of data
+Process completed in 0.18811225891113 ms
+ Unserialization of data
+Process completed in 0.39005279541016 ms
+
+
+----------------------------------------
+Making Test Data of size 3000
+Encoding in Json
+Process completed in 0.36501884460449 ms
+ Decoding from Json
+Process completed in 1.2059211730957 ms
+ Serialization of data
+Process completed in 0.37598609924316 ms
+ Unserialization of data
+Process completed in 0.5190372467041 ms
+
+
+----------------------------------------
+Making Test Data of size 4000
+Encoding in Json
+Process completed in 0.4420280456543 ms
+ Decoding from Json
+Process completed in 1.5029907226562 ms
+ Serialization of data
+Process completed in 0.3669261932373 ms
+ Unserialization of data
+Process completed in 0.99301338195801 ms
+
+
+----------------------------------------
+Making Test Data of size 5000
+Encoding in Json
+Process completed in 0.56791305541992 ms
+ Decoding from Json
+Process completed in 2.2931098937988 ms
+ Serialization of data
+Process completed in 0.60319900512695 ms
+ Unserialization of data
+Process completed in 0.98609924316406 ms
+
+
+----------------------------------------
+Making Test Data of size 6000
+Encoding in Json
+Process completed in 0.640869140625 ms
+ Decoding from Json
+Process completed in 2.4490356445312 ms
+ Serialization of data
+Process completed in 0.53501129150391 ms
+ Unserialization of data
+Process completed in 1.1520385742188 ms
+
+
+----------------------------------------
+Making Test Data of size 7000
+Encoding in Json
+Process completed in 0.89311599731445 ms
+ Decoding from Json
+Process completed in 3.1208992004395 ms
+ Serialization of data
+Process completed in 0.885009765625 ms
+ Unserialization of data
+Process completed in 1.4569759368896 ms
+
+
+----------------------------------------
+Making Test Data of size 8000
+Encoding in Json
+Process completed in 0.99587440490723 ms
+ Decoding from Json
+Process completed in 3.3190250396729 ms
+ Serialization of data
+Process completed in 0.80013275146484 ms
+ Unserialization of data
+Process completed in 2.8510093688965 ms
+
+
+----------------------------------------
+Making Test Data of size 9000
+Encoding in Json
+Process completed in 1.1298656463623 ms
+ Decoding from Json
+Process completed in 3.9889812469482 ms
+ Serialization of data
+Process completed in 0.92482566833496 ms
+ Unserialization of data
+Process completed in 1.7478466033936 ms
+
+
+----------------------------------------
+Making Test Data of size 10000
+Encoding in Json
+Process completed in 1.3360977172852 ms
+ Decoding from Json
+Process completed in 4.4360160827637 ms
+ Serialization of data
+Process completed in 0.95081329345703 ms
+ Unserialization of data
+Process completed in 2.4449825286865 ms
+
+
+----------------------------------------
+Making Test Data of size 11000
+Encoding in Json
+Process completed in 1.2609958648682 ms
+ Decoding from Json
+Process completed in 5.2111148834229 ms
+ Serialization of data
+Process completed in 1.2369155883789 ms
+ Unserialization of data
+Process completed in 3.1628608703613 ms
+
+
+----------------------------------------
+Making Test Data of size 12000
+Encoding in Json
+Process completed in 1.3289451599121 ms
+ Decoding from Json
+Process completed in 5.4690837860107 ms
+ Serialization of data
+Process completed in 1.2249946594238 ms
+ Unserialization of data
+Process completed in 3.4170150756836 ms
+
+
+----------------------------------------
+Making Test Data of size 13000
+Encoding in Json
+Process completed in 1.6560554504395 ms
+ Decoding from Json
+Process completed in 6.0839653015137 ms
+ Serialization of data
+Process completed in 1.4050006866455 ms
+ Unserialization of data
+Process completed in 4.5502185821533 ms
+
+
+----------------------------------------
+Making Test Data of size 14000
+Encoding in Json
+Process completed in 1.9030570983887 ms
+ Decoding from Json
+Process completed in 6.2329769134521 ms
+ Serialization of data
+Process completed in 1.5709400177002 ms
+ Unserialization of data
+Process completed in 3.5958290100098 ms
+
+
+----------------------------------------
+Making Test Data of size 15000
+Encoding in Json
+Process completed in 2.0439624786377 ms
+ Decoding from Json
+Process completed in 6.5028667449951 ms
+ Serialization of data
+Process completed in 1.4350414276123 ms
+ Unserialization of data
+Process completed in 4.0440559387207 ms
+
+
+----------------------------------------
+Making Test Data of size 16000
+Encoding in Json
+Process completed in 1.9931793212891 ms
+ Decoding from Json
+Process completed in 6.6239833831787 ms
+ Serialization of data
+Process completed in 1.5699863433838 ms
+ Unserialization of data
+Process completed in 4.0359497070312 ms
+
+
+----------------------------------------
+Making Test Data of size 17000
+Encoding in Json
+Process completed in 2.1970272064209 ms
+ Decoding from Json
+Process completed in 7.2369575500488 ms
+ Serialization of data
+Process completed in 1.9798278808594 ms
+ Unserialization of data
+Process completed in 4.7769546508789 ms
+
+
+----------------------------------------
+Making Test Data of size 18000
+Encoding in Json
+Process completed in 2.6450157165527 ms
+ Decoding from Json
+Process completed in 7.7579021453857 ms
+ Serialization of data
+Process completed in 1.8348693847656 ms
+ Unserialization of data
+Process completed in 4.6079158782959 ms
+
+
+----------------------------------------
+Making Test Data of size 19000
+Encoding in Json
+Process completed in 2.2330284118652 ms
+ Decoding from Json
+Process completed in 7.6839923858643 ms
+ Serialization of data
+Process completed in 2.0010471343994 ms
+ Unserialization of data
+Process completed in 5.4628849029541 ms
+
+
+----------------------------------------
+Making Test Data of size 20000
+Encoding in Json
+Process completed in 2.6628971099854 ms
+ Decoding from Json
+Process completed in 8.371114730835 ms
+ Serialization of data
+Process completed in 2.0751953125 ms
+ Unserialization of data
+Process completed in 5.4960250854492 ms
+
+
+----------------------------------------
+Making Test Data of size 21000
+Encoding in Json
+Process completed in 2.6841163635254 ms
+ Decoding from Json
+Process completed in 8.9211463928223 ms
+ Serialization of data
+Process completed in 2.4359226226807 ms
+ Unserialization of data
+Process completed in 6.4668655395508 ms
+
+
+----------------------------------------
+Making Test Data of size 22000
+Encoding in Json
+Process completed in 2.7720928192139 ms
+ Decoding from Json
+Process completed in 8.9151859283447 ms
+ Serialization of data
+Process completed in 2.263069152832 ms
+ Unserialization of data
+Process completed in 6.6938400268555 ms
+
+
+----------------------------------------
+Making Test Data of size 23000
+Encoding in Json
+Process completed in 2.8970241546631 ms
+ Decoding from Json
+Process completed in 9.4211101531982 ms
+ Serialization of data
+Process completed in 2.5019645690918 ms
+ Unserialization of data
+Process completed in 6.6189765930176 ms
+
+
+----------------------------------------
+Making Test Data of size 24000
+Encoding in Json
+Process completed in 2.8738975524902 ms
+ Decoding from Json
+Process completed in 9.8979473114014 ms
+ Serialization of data
+Process completed in 2.6140213012695 ms
+ Unserialization of data
+Process completed in 6.5970420837402 ms
+
+
+----------------------------------------
+Making Test Data of size 25000
+Encoding in Json
+Process completed in 3.0770301818848 ms
+ Decoding from Json
+Process completed in 10.426044464111 ms
+ Serialization of data
+Process completed in 2.7141571044922 ms
+ Unserialization of data
+Process completed in 7.0469379425049 ms
+
+
+----------------------------------------
+Making Test Data of size 26000
+Encoding in Json
+Process completed in 3.065824508667 ms
+ Decoding from Json
+Process completed in 10.661840438843 ms
+ Serialization of data
+Process completed in 2.7840137481689 ms
+ Unserialization of data
+Process completed in 7.133960723877 ms
+
+
+----------------------------------------
+Making Test Data of size 27000
+Encoding in Json
+Process completed in 3.4019947052002 ms
+ Decoding from Json
+Process completed in 10.967969894409 ms
+ Serialization of data
+Process completed in 2.9671192169189 ms
+ Unserialization of data
+Process completed in 7.9069137573242 ms
+
+
+----------------------------------------
+Making Test Data of size 28000
+Encoding in Json
+Process completed in 3.554105758667 ms
+ Decoding from Json
+Process completed in 11.423110961914 ms
+ Serialization of data
+Process completed in 3.6420822143555 ms
+ Unserialization of data
+Process completed in 8.281946182251 ms
+
+
+----------------------------------------
+Making Test Data of size 29000
+Encoding in Json
+Process completed in 3.7341117858887 ms
+ Decoding from Json
+Process completed in 12.861013412476 ms
+ Serialization of data
+Process completed in 3.2360553741455 ms
+ Unserialization of data
+Process completed in 7.9131126403809 ms
+
+
+----------------------------------------
+Making Test Data of size 30000
+Encoding in Json
+Process completed in 3.5898685455322 ms
+ Decoding from Json
+Process completed in 13.024806976318 ms
+ Serialization of data
+Process completed in 3.2579898834229 ms
+ Unserialization of data
+Process completed in 9.1581344604492 ms
+
+
+----------------------------------------
+Making Test Data of size 31000
+Encoding in Json
+Process completed in 3.7698745727539 ms
+ Decoding from Json
+Process completed in 13.844013214111 ms
+ Serialization of data
+Process completed in 3.3068656921387 ms
+ Unserialization of data
+Process completed in 8.9371204376221 ms
+
+
+----------------------------------------
+Making Test Data of size 32000
+Encoding in Json
+Process completed in 3.9570331573486 ms
+ Decoding from Json
+Process completed in 13.60297203064 ms
+ Serialization of data
+Process completed in 3.173828125 ms
+ Unserialization of data
+Process completed in 9.7861289978027 ms
+
+
+----------------------------------------
+Making Test Data of size 33000
+Encoding in Json
+Process completed in 3.8020610809326 ms
+ Decoding from Json
+Process completed in 14.791011810303 ms
+ Serialization of data
+Process completed in 3.9441585540771 ms
+ Unserialization of data
+Process completed in 9.7329616546631 ms
+
+
+----------------------------------------
+Making Test Data of size 34000
+Encoding in Json
+Process completed in 4.040002822876 ms
+ Decoding from Json
+Process completed in 14.549970626831 ms
+ Serialization of data
+Process completed in 4.0731430053711 ms
+ Unserialization of data
+Process completed in 10.744094848633 ms
+
+
+----------------------------------------
+Making Test Data of size 35000
+Encoding in Json
+Process completed in 4.0440559387207 ms
+ Decoding from Json
+Process completed in 15.15793800354 ms
+ Serialization of data
+Process completed in 4.1708946228027 ms
+ Unserialization of data
+Process completed in 11.291980743408 ms
+
+
+----------------------------------------
+Making Test Data of size 36000
+Encoding in Json
+Process completed in 4.3339729309082 ms
+ Decoding from Json
+Process completed in 15.311002731323 ms
+ Serialization of data
+Process completed in 3.9830207824707 ms
+ Unserialization of data
+Process completed in 11.526107788086 ms
+
+
+----------------------------------------
+Making Test Data of size 37000
+Encoding in Json
+Process completed in 4.6310424804688 ms
+ Decoding from Json
+Process completed in 15.742063522339 ms
+ Serialization of data
+Process completed in 4.2040348052979 ms
+ Unserialization of data
+Process completed in 11.637926101685 ms
+
+
+----------------------------------------
+Making Test Data of size 38000
+Encoding in Json
+Process completed in 4.6830177307129 ms
+ Decoding from Json
+Process completed in 16.419887542725 ms
+ Serialization of data
+Process completed in 4.4460296630859 ms
+ Unserialization of data
+Process completed in 11.74783706665 ms
+
+
+----------------------------------------
+Making Test Data of size 39000
+Encoding in Json
+Process completed in 4.90403175354 ms
+ Decoding from Json
+Process completed in 16.613006591797 ms
+ Serialization of data
+Process completed in 4.4260025024414 ms
+ Unserialization of data
+Process completed in 11.960983276367 ms
+
+
+----------------------------------------
+Making Test Data of size 40000
+Encoding in Json
+Process completed in 4.9939155578613 ms
+ Decoding from Json
+Process completed in 17.681121826172 ms
+ Serialization of data
+Process completed in 4.4939517974854 ms
+ Unserialization of data
+Process completed in 11.833906173706 ms
+
+
+----------------------------------------
+Making Test Data of size 41000
+Encoding in Json
+Process completed in 5.0480365753174 ms
+ Decoding from Json
+Process completed in 17.63391494751 ms
+ Serialization of data
+Process completed in 5.1097869873047 ms
+ Unserialization of data
+Process completed in 13.208866119385 ms
+
+
+----------------------------------------
+Making Test Data of size 42000
+Encoding in Json
+Process completed in 5.2399635314941 ms
+ Decoding from Json
+Process completed in 17.83299446106 ms
+ Serialization of data
+Process completed in 5.1178932189941 ms
+ Unserialization of data
+Process completed in 13.488054275513 ms
+
+
+----------------------------------------
+Making Test Data of size 43000
+Encoding in Json
+Process completed in 5.5840015411377 ms
+ Decoding from Json
+Process completed in 18.296957015991 ms
+ Serialization of data
+Process completed in 5.2320957183838 ms
+ Unserialization of data
+Process completed in 13.258934020996 ms
+
+
+----------------------------------------
+Making Test Data of size 44000
+Encoding in Json
+Process completed in 5.389928817749 ms
+ Decoding from Json
+Process completed in 18.925905227661 ms
+ Serialization of data
+Process completed in 5.3508281707764 ms
+ Unserialization of data
+Process completed in 13.544797897339 ms
+
+
+----------------------------------------
+Making Test Data of size 45000
+Encoding in Json
+Process completed in 5.814790725708 ms
+ Decoding from Json
+Process completed in 19.176959991455 ms
+ Serialization of data
+Process completed in 5.5928230285645 ms
+ Unserialization of data
+Process completed in 13.397932052612 ms
+
+
+----------------------------------------
+Making Test Data of size 46000
+Encoding in Json
+Process completed in 5.8701038360596 ms
+ Decoding from Json
+Process completed in 19.486904144287 ms
+ Serialization of data
+Process completed in 5.7718753814697 ms
+ Unserialization of data
+Process completed in 13.797998428345 ms
+
+
+----------------------------------------
+Making Test Data of size 47000
+Encoding in Json
+Process completed in 5.9218406677246 ms
+ Decoding from Json
+Process completed in 19.869804382324 ms
+ Serialization of data
+Process completed in 6.1459541320801 ms
+ Unserialization of data
+Process completed in 13.969898223877 ms
+
+
+----------------------------------------
+Making Test Data of size 48000
+Encoding in Json
+Process completed in 5.9590339660645 ms
+ Decoding from Json
+Process completed in 20.713090896606 ms
+ Serialization of data
+Process completed in 6.0439109802246 ms
+ Unserialization of data
+Process completed in 13.857126235962 ms
+
+
+----------------------------------------
+Making Test Data of size 49000
+Encoding in Json
+Process completed in 6.0470104217529 ms
+ Decoding from Json
+Process completed in 20.838975906372 ms
+ Serialization of data
+Process completed in 6.4191818237305 ms
+ Unserialization of data
+Process completed in 14.265060424805 ms
+
+
+----------------------------------------
+Making Test Data of size 150000
+Encoding in Json
+Process completed in 20.297050476074 ms
+ Decoding from Json
+Process completed in 63.123226165771 ms
+ Serialization of data
+Process completed in 17.989873886108 ms
+ Unserialization of data
+Process completed in 50.379991531372 ms
+
+
+----------------------------------------
+
