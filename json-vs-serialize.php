@@ -100,6 +100,21 @@ function runtest($datasize)
     $unserializeddata = unserialize($serializeddata);
     $stats_row['unserialize'] = end_timer();
      
+
+	start_timer();
+    echo GREEN.' Packing with msgpack'.WHITE."\n";
+    $msgpackeddata = msgpack_pack($array);
+    $stats_row['msgpack_pack'] = end_timer();
+             
+    $f = 'tmp/'.$datasize.'_msgpack.dat';
+    file_put_contents($f,$msgpackeddata);
+    $stats_row['msgpack_size(MB)'] = filesize($f)/1048576;
+     
+    start_timer();
+    echo GREEN.' Unpacking from msgpack'.WHITE."\n";
+    $msgunpackeddata = msgpack_unpack($msgpackeddata);
+    $stats_row['msgpack_unpack'] = end_timer();
+
     return $stats_row;
 }
  
@@ -115,10 +130,12 @@ for($i=1000; $i<50000; $i+=1000)
 {
     $row = runtest($i);
 	echo "\n".RED."json encoded: ".WHITE.round($row['json_size(MB)'],2)." ".RED."serialized: ".WHITE.round($row['serialize_size(MB)'], 2)." ".RED."ratio: ".WHITE.round(($row['serialize_size(MB)'] / $row['json_size(MB)'])*100, 2)."%\n";
+	echo "\n".RED."json encoded: ".WHITE.round($row['json_size(MB)'],2)." ".RED."packed: ".WHITE.round($row['msgpack_size(MB)'], 2)." ".RED."ratio: ".WHITE.round(($row['msgpack_size(MB)'] / $row['json_size(MB)'])*100, 2)."%\n";
     echo "\n\n".GREEN."----------------------------------------".WHITE."\n";
 }
 
 $row = runtest(150000);
 echo "\n".RED."json encoded: ".WHITE.round($row['json_size(MB)'],2)." ".RED."serialized: ".WHITE.round($row['serialize_size(MB)'],2)." ".RED."ratio: ".WHITE.round(($row['serialize_size(MB)'] / $row['json_size(MB)'])*100, 2)."%\n";
+echo "\n".RED."json encoded: ".WHITE.round($row['json_size(MB)'],2)." ".RED."packed: ".WHITE.round($row['msgpack_size(MB)'], 2)." ".RED."ratio: ".WHITE.round(($row['msgpack_size(MB)'] / $row['json_size(MB)'])*100, 2)."%\n";
 echo "\n\n".GREEN."----------------------------------------".WHITE."\n";
  
